@@ -21,7 +21,7 @@ public class DashboardPage {
 	
 	@FindBy(xpath="//ul[@class='sidebar-menu tree']/li")
 	List<WebElement> leftPane;
-	
+	//Get the logout visible
 	public boolean isLogoutVisible() {
 		boolean b=false;
 		try {
